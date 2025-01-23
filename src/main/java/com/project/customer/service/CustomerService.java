@@ -13,7 +13,7 @@ import com.project.customer.repository.CustomerRepository;
 @Service
 public class CustomerService {
 	
-	@Autowired
+	@Autowired // autowire repo
 	CustomerRepository customerRepo;
 	
 	public CustomerEntity addCustomer(CustomerEntity customer) {
